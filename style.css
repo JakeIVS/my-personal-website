@@ -1,5 +1,6 @@
 body {
     font-family: 'Segoe UI';
+    text-align: center;
 }
 #top {
     background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Solo_Jazz_design.jpg/220px-Solo_Jazz_design.jpg");
@@ -25,9 +26,9 @@ body {
     border-radius: 50%;
     padding: 12px;
 }
-#chemistry {
+#chemical-experience {
     display: none;
 }
-#software-engineering {
+#se-experience {
     display: none;
 }
