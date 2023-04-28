@@ -3,11 +3,20 @@ body {
     font-family: 'Segoe UI';
 }
 #header {
-    font-size: '120px';
+    margin-top: 150px;
+    font-size: 30px;
     text-align: center;
+    
+}
+#header h3 {
+    padding: 0px;
+    font-size: 15px;
 }
 #personal-info {
     text-align: center;
-    padding: "50px";
-    background-color:rgba(127, 255, 212, 0.473);
+    padding: 25px;
+}
+#personal-info img {
+    border-radius: 50%;
+    padding: 12px;
 }
