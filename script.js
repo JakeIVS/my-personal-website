@@ -18,12 +18,35 @@ button2.id = "button2";
 const p2 = document.createElement('p');
 p2.textContent = "Software Engineering at Flatirons School (Denver, CO)";
 
-function showChemistry() {
-    const chemExp = document.getElementById('chemical-experience');
-    const seExp = document.getElementById('se-experience');
-    seExp.style.display = 'none';
-    chemExp.style.display = 'block';
+
+const chemistryListItems = [
+    'BS in Chemistry, Colorado State University',
+    'Research on 3d conformation of Ubiquinone-2',
+    '4 years expierience as Lead Chemist'
+];
+
+const seListItems = [
+    'Nothing yet!'
+];
+
+let ul = document.createElement('ul');
+ul.className = 'list';
+document.body.appendChild(ul);
+
+function updateList(listItems) {
+    ul.innerHTML = "";
+    listItems.forEach(function (item) {
+        let li = document.createElement('li');
+        li.textContent = item;
+        ul.appendChild(li);
+    })
 }
 
-const input1 = document.getElementsByClassName('button1');
-input1.addEventListener('click', showChemistry());
+const input1 = document.getElementById('button1');
+input1.addEventListener('click', function() {
+    updateList(chemistryListItems);
+});
+const input2 = document.getElementById('button2');
+input2.addEventListener('click', function() {
+    updateList(seListItems);
+});

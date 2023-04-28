@@ -4,7 +4,7 @@ body {
 }
 #top {
     background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Solo_Jazz_design.jpg/220px-Solo_Jazz_design.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 #header {
     font-size: 30px;
@@ -26,9 +26,13 @@ body {
     border-radius: 50%;
     padding: 12px;
 }
-#chemical-experience {
+.contact {
+    background-color: rgba(255, 255, 255, 0.69);
+}
+#professional-info {
     display: none;
 }
-#se-experience {
-    display: none;
+.list {
+    padding: 0 30vw;
+    text-align: left;
 }
