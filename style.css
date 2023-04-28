@@ -1,12 +1,13 @@
 body {
-    background: blanchedalmond;
+    background-image: url("https://wallpapercrafter.com/desktop/421506-Artistic-Vaporwave-Phone-Wallpaper.jpg");
+    font-family: 'Segoe UI';
 }
 #header {
-    font-size: '30px';
-    font: 'normal normal normal 22px/1.41em raleway,sans-serif';
+    font-size: '120px';
     text-align: center;
 }
 #personal-info {
     text-align: center;
-    padding-top: "25px"
+    padding: "50px";
+    background-color:rgba(127, 255, 212, 0.473);
 }
