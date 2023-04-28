@@ -25,3 +25,9 @@ body {
     border-radius: 50%;
     padding: 12px;
 }
+#chemistry {
+    display: none;
+}
+#software-engineering {
+    display: none;
+}
